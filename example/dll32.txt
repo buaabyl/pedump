@@ -1,0 +1,78 @@
+dll32.dll: PE32 executable (DLL) (32bits) (console) i386 (Sun Jan 01 20:12:36 2017)
+  Sections
+    RVA        OFFSET    
+    ---------- ----------
+    0x00001000 0x00000600
+    0x00003000 0x00001c00
+    0x00004000 0x00001e00
+    0x00005000 0x00002400
+    0x00006000 0x00000000
+    0x00007000 0x00002e00
+    0x00008000 0x00003000
+    0x00009000 0x00003600
+    0x0000a000 0x00003800
+    0x0000b000 0x00003a00
+    0x0000c000 0x00003e00
+    0x0000d000 0x00004000
+    0x00044000 0x0003a200
+    0x00046000 0x0003be00
+    0x00048000 0x0003de00
+    0x00049000 0x0003e400
+    0x0004a000 0x0003f200
+
+  Import KERNEL32.dll
+    Hint     Name
+    -------- --------
+    0x00d6   DeleteCriticalSection
+    0x00f2   EnterCriticalSection
+    0x0167   FreeLibrary
+    0x01c7   GetCurrentProcess
+    0x01c8   GetCurrentProcessId
+    0x01cc   GetCurrentThreadId
+    0x0206   GetLastError
+    0x0218   GetModuleHandleA
+    0x0248   GetProcAddress
+    0x027e   GetSystemTimeAsFileTime
+    0x029a   GetTickCount
+    0x02ee   InitializeCriticalSection
+    0x0329   LeaveCriticalSection
+    0x032c   LoadLibraryA
+    0x039a   QueryPerformanceCounter
+    0x046f   SetUnhandledExceptionFilter
+    0x047c   Sleep
+    0x048a   TerminateProcess
+    0x0491   TlsGetValue
+    0x049e   UnhandledExceptionFilter
+    0x04bf   VirtualProtect
+    0x04c2   VirtualQuery
+
+  Import msvcrt.dll
+    Hint     Name
+    -------- --------
+    0x0037   __dllonexit
+    0x0090   _amsg_exit
+    0x015e   _initterm
+    0x0162   _iob
+    0x01c9   _lock
+    0x0273   _onexit
+    0x0347   _unlock
+    0x0420   abort
+    0x042d   calloc
+    0x044f   free
+    0x045b   fwrite
+    0x048b   malloc
+    0x04c1   strlen
+    0x04c4   strncmp
+    0x04e4   vfprintf
+
+  Import libgcc_s_dw2-1.dll
+    Hint     Name
+    -------- --------
+    0x0024   __deregister_frame_info
+    0x0069   __register_frame_info
+
+  Export dll32.dll
+    Ordinal  Hint     Entry      Name
+    -------- -------- ---------- --------
+    0x0001   0x0000   0x00000b70 add
+    0x0002   0x0001   0x00000b7d sub

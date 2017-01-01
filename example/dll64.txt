@@ -1,0 +1,78 @@
+dll64.dll: PE32+ executable (DLL) (console) x86_64 (Sun Jan 01 20:12:27 2017)
+  Sections
+    RVA        OFFSET    
+    ---------- ----------
+    0x00001000 0x00000600
+    0x00003000 0x00002200
+    0x00004000 0x00002400
+    0x00005000 0x00002c00
+    0x00006000 0x00003000
+    0x00007000 0x00000000
+    0x00008000 0x00003200
+    0x00009000 0x00003400
+    0x0000a000 0x00003c00
+    0x0000b000 0x00003e00
+    0x0000c000 0x00004000
+    0x0000d000 0x00004200
+    0x0000e000 0x00004600
+    0x0004b000 0x00041200
+    0x0004d000 0x00043200
+    0x00050000 0x00045600
+    0x00051000 0x00046000
+    0x00052000 0x00046600
+    0x00055000 0x00049400
+
+  Import KERNEL32.dll
+    Hint     Name
+    -------- --------
+    0x00d9   DeleteCriticalSection
+    0x00fa   EnterCriticalSection
+    0x01cf   GetCurrentProcess
+    0x01d0   GetCurrentProcessId
+    0x01d4   GetCurrentThreadId
+    0x0212   GetLastError
+    0x0226   GetModuleHandleA
+    0x0258   GetProcAddress
+    0x028c   GetSystemTimeAsFileTime
+    0x02a7   GetTickCount
+    0x02fb   InitializeCriticalSection
+    0x034d   LeaveCriticalSection
+    0x03c0   QueryPerformanceCounter
+    0x0407   RtlAddFunctionTable
+    0x0408   RtlCaptureContext
+    0x040f   RtlLookupFunctionEntry
+    0x0416   RtlVirtualUnwind
+    0x04a5   SetUnhandledExceptionFilter
+    0x04b2   Sleep
+    0x04c0   TerminateProcess
+    0x04c7   TlsGetValue
+    0x04d4   UnhandledExceptionFilter
+    0x04f3   VirtualProtect
+    0x04f5   VirtualQuery
+
+  Import msvcrt.dll
+    Hint     Name
+    -------- --------
+    0x004e   __dllonexit
+    0x0053   __iob_func
+    0x007b   _amsg_exit
+    0x014a   _initterm
+    0x01b6   _lock
+    0x0263   _onexit
+    0x0334   _unlock
+    0x0404   abort
+    0x0418   calloc
+    0x043f   free
+    0x044b   fwrite
+    0x047a   malloc
+    0x0482   memcpy
+    0x04a0   signal
+    0x04b5   strlen
+    0x04b8   strncmp
+    0x04d8   vfprintf
+
+  Export dll64.dll
+    Ordinal  Hint     Entry      Name
+    -------- -------- ---------- --------
+    0x0001   0x0000   0x00000aa0 add
+    0x0002   0x0001   0x00000ab4 sub

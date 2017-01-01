@@ -1,0 +1,1433 @@
+c:\Windows\System32\advapi32.dll: PE32+ executable (DLL) (console) x86_64 (Thu Aug 29 10:13:38 2013)
+  Sections
+    RVA        OFFSET    
+    ---------- ----------
+    0x00001000 0x00000400
+    0x00076000 0x00074e00
+    0x000a8000 0x000a6c00
+    0x000ad000 0x000aa400
+    0x000b5000 0x000b1c00
+    0x000d9000 0x000d4e00
+
+  Import msvcrt.dll
+    Hint     Name
+    -------- --------
+    0x0480   memcpy
+    0x04c0   strrchr
+    0x0509   wcstoul
+    0x0329   _ultow
+    0x04d7   tolower
+    0x0460   iswctype
+    0x0391   _wcstoui64
+    0x045a   isspace
+    0x00f6   _errno
+    0x0451   isalnum
+    0x0504   wcstok
+    0x047b   mbstowcs
+    0x0053   __C_specific_handler
+    0x04ef   wcschr
+    0x04fe   wcsrchr
+    0x0482   memmove
+    0x0379   _wcsicmp
+    0x0358   _vsnwprintf
+    0x04f3   wcscpy_s
+    0x04af   strchr
+    0x04c2   strstr
+    0x02e9   _stricmp
+    0x0352   _vsnprintf
+    0x0507   wcstombs
+    0x0502   wcsstr
+    0x04ca   swprintf_s
+    0x04fb   wcsncpy_s
+    0x04f9   wcsncmp
+    0x04cc   swscanf_s
+    0x0383   _wcsnicmp
+    0x0484   memset
+    0x04ee   wcscat_s
+    0x047f   memcmp
+
+  Import ntdll.dll
+    Hint     Name
+    -------- --------
+    0x027c   RtlCaptureContext
+    0x0403   RtlLookupFunctionEntry
+    0x04f2   RtlVirtualUnwind
+    0x0471   RtlRunOnceExecuteOnce
+    0x007b   LdrLoadDll
+    0x0074   LdrGetProcedureAddress
+    0x0095   LdrUnloadDll
+    0x046f   RtlRunOnceBeginInitialize
+    0x0395   RtlImageNtHeader
+    0x01b0   NtQueryValueKey
+    0x0193   NtQueryInformationToken
+    0x0165   NtOpenProcessToken
+    0x00d7   NtClose
+    0x015c   NtOpenKey
+    0x003b   EtwEventWriteEx
+    0x0020   DbgPrint
+    0x034a   RtlFreeAnsiString
+    0x035f   RtlGetCurrentTransaction
+    0x0001   (NONAME)
+    0x03ec   RtlLeaveCriticalSection
+    0x0312   RtlEnterCriticalSection
+    0x03e3   RtlIsTextUnicode
+    0x03ef   RtlLengthSid
+    0x02ac   RtlCopyUnicodeString
+    0x041f   RtlOemStringToUnicodeString
+    0x04cf   RtlUnicodeToMultiByteSize
+    0x04c8   RtlUnicodeStringToAnsiString
+    0x0301   RtlDosPathNameToNtPathName_U
+    0x0266   RtlAllocateHeap
+    0x0416   RtlNtStatusToDosError
+    0x0351   RtlFreeUnicodeString
+    0x039b   RtlInitAnsiString
+    0x03a4   RtlInitUnicodeString
+    0x034c   RtlFreeHeap
+    0x026b   RtlAnsiStringToUnicodeString
+    0x03ab   RtlInitializeCriticalSection
+    0x00a3   NlsMbCodePageTag
+    0x052e   RtlxUnicodeStringToAnsiSize
+    0x0405   RtlMakeSelfRelativeSD
+    0x016d   NtOpenThreadToken
+    0x01f5   NtSetInformationThread
+    0x052c   RtlxAnsiStringToUnicodeSize
+    0x03a5   RtlInitUnicodeStringEx
+    0x01ad   NtQuerySystemTime
+    0x044a   RtlRandom
+    0x04ad   RtlSubAuthoritySid
+    0x02a9   RtlCopySid
+    0x0386   RtlGetThreadPreferredUILanguages
+    0x04ac   RtlSubAuthorityCountSid
+    0x0379   RtlGetNtProductType
+    0x029c   RtlConvertSidToUnicodeString
+    0x04ca   RtlUnicodeStringToInteger
+    0x03e6   RtlIsValidIndexHandle
+    0x0265   RtlAllocateHandle
+    0x034b   RtlFreeHandle
+    0x034f   RtlFreeSid
+    0x031f   RtlEqualSid
+    0x01f6   NtSetInformationToken
+    0x024c   RtlAddAccessAllowedAceEx
+    0x0115   NtDuplicateToken
+    0x00dd   NtCompareTokens
+    0x0264   RtlAllocateAndInitializeSid
+    0x0319   RtlEnumerateGenericTableWithoutSplaying
+    0x02be   RtlCreateSecurityDescriptor
+    0x03de   RtlIsGenericTableEmpty
+    0x048e   RtlSetOwnerSecurityDescriptor
+    0x019a   NtQueryKey
+    0x036f   RtlGetLastNtStatus
+    0x032b   RtlExpandEnvironmentStrings_U
+    0x02c7   RtlCreateUnicodeString
+    0x0110   NtDeviceIoControlFile
+    0x0190   NtQueryInformationProcess
+    0x030a   RtlDuplicateUnicodeString
+    0x0159   NtOpenFile
+    0x0037   EtwEventRegister
+    0x0039   EtwEventWrite
+    0x0270   RtlAppendUnicodeToString
+    0x00eb   NtCreateKey
+    0x02e1   RtlDeleteElementGenericTable
+    0x020c   NtSetValueKey
+    0x010c   NtDeleteKey
+    0x03b8   RtlInsertElementGenericTable
+    0x04ab   RtlStringFromGUID
+    0x0119   NtEnumerateKey
+    0x03b1   RtlInitializeHandleTable
+    0x03c0   RtlIntegerToUnicodeString
+    0x026f   RtlAppendUnicodeStringToString
+    0x0038   EtwEventUnregister
+    0x0346   RtlFormatCurrentUserKeyPath
+    0x02f4   RtlDestroyHandleTable
+    0x0419   RtlNumberGenericTableElements
+    0x0440   RtlQueryRegistryValues
+    0x03fe   RtlLookupElementGenericTable
+    0x03af   RtlInitializeGenericTable
+    0x04ed   RtlValidSid
+    0x0353   RtlGUIDFromString
+    0x04dc   RtlUpcaseUnicodeChar
+    0x02fb   RtlDetermineDosPathNameType_U
+    0x016b   NtOpenSymbolicLinkObject
+    0x01a8   NtQuerySymbolicLinkObject
+    0x018d   NtQueryInformationFile
+    0x01b2   NtQueryVolumeInformationFile
+    0x0427   RtlPrefixUnicodeString
+    0x0369   RtlGetFullPathName_U
+    0x0269   RtlAnsiCharToUnicodeChar
+    0x04ce   RtlUnicodeToMultiByteN
+    0x0417   RtlNtStatusToDosErrorNoTeb
+    0x040a   RtlMultiByteToUnicodeN
+    0x02fd   RtlDllShutdownInProgress
+    0x01e9   NtSetEvent
+    0x0219   NtTerminateThread
+    0x022d   NtWaitForSingleObject
+    0x00e5   NtCreateEvent
+    0x048b   RtlSetLastWin32Error
+    0x0303   RtlDosPathNameToRelativeNtPathName_U
+    0x00e7   NtCreateFile
+    0x0459   RtlReleaseRelativeName
+    0x0329   RtlExitUserThread
+    0x022b   NtWaitForMultipleObjects
+    0x00d6   NtClearEvent
+    0x0453   RtlRegisterThreadWithCsrss
+    0x0107   NtDelayExecution
+    0x00d2   NtCancelIoFile
+    0x0114   NtDuplicateObject
+    0x004c   EtwSendNotification
+    0x0204   NtSetSystemInformation
+    0x021d   NtTraceControl
+    0x0032   EtwDeliverDataBlock
+    0x0033   EtwEnumerateProcessRegGuids
+    0x043b   RtlQueryPerformanceFrequency
+    0x01ab   NtQuerySystemInformation
+    0x03c1   RtlInterlockedClearBitRun
+    0x0444   RtlQueryTimeZoneInformation
+    0x03a8   RtlInitializeBitMap
+    0x01a1   NtQueryPerformanceCounter
+    0x0054   EtwpGetCpuSpeed
+    0x0375   RtlGetNativeSystemInformation
+    0x02ad   RtlCreateAcl
+    0x0047   EtwProcessPrivateLoggerRequest
+    0x02f9   RtlDestroyQueryDebugBuffer
+    0x0399   RtlImpersonateSelf
+    0x0262   RtlAdjustPrivilege
+    0x043d   RtlQueryProcessDebugInformation
+    0x021e   NtTraceEvent
+    0x02bc   RtlCreateQueryDebugBuffer
+    0x0434   RtlQueryHeapInformation
+    0x03cc   RtlIpv4AddressToStringW
+    0x0173   NtPowerInformation
+    0x03d4   RtlIpv6AddressToStringW
+    0x039c   RtlInitAnsiStringEx
+    0x02c8   RtlCreateUnicodeStringFromAsciiz
+    0x028f   RtlCompareUnicodeString
+    0x01c8   NtRenameKey
+    0x0144   NtLoadKeyEx
+    0x024f   RtlAddAccessDeniedAceEx
+    0x0251   RtlAddAce
+    0x0481   RtlSetDaclSecurityDescriptor
+    0x0342   RtlFirstFreeAce
+    0x04ea   RtlValidAcl
+    0x0257   RtlAddAuditAccessObjectAce
+    0x0380   RtlGetSaclSecurityDescriptor
+    0x0250   RtlAddAccessDeniedObjectAce
+    0x0487   RtlSetGroupSecurityDescriptor
+    0x036d   RtlGetGroupSecurityDescriptor
+    0x0492   RtlSetSaclSecurityDescriptor
+    0x0359   RtlGetControlSecurityDescriptor
+    0x0240   RtlAbsoluteToSelfRelativeSD
+    0x024d   RtlAddAccessAllowedObjectAce
+    0x0361   RtlGetDaclSecurityDescriptor
+    0x03b7   RtlInitializeSid
+    0x037b   RtlGetOwnerSecurityDescriptor
+    0x0256   RtlAddAuditAccessAceEx
+    0x04b4   RtlTimeToSecondsSince1970
+    0x02ab   RtlCopyString
+    0x0247   RtlAcquireSRWLockShared
+    0x0192   NtQueryInformationThread
+    0x0321   RtlEqualUnicodeString
+    0x0246   RtlAcquireSRWLockExclusive
+    0x019d   NtQueryMutant
+    0x045b   RtlReleaseSRWLockExclusive
+    0x019e   NtQueryObject
+    0x00c9   NtAlpcQueryInformation
+    0x03b6   RtlInitializeSRWLock
+    0x045c   RtlReleaseSRWLockShared
+    0x024b   RtlAddAccessAllowedAce
+    0x0421   RtlOpenCurrentUser
+    0x019c   NtQueryMultipleValueKey
+    0x04eb   RtlValidRelativeSecurityDescriptor
+    0x01ca   NtReplaceKey
+    0x01dd   NtSaveMergedKeys
+    0x01db   NtSaveKey
+    0x01a6   NtQuerySecurityObject
+    0x038d   RtlGetVersion
+    0x0044   EtwLogTraceEvent
+    0x044c   RtlReAllocateHeap
+    0x0232   NtWriteFile
+    0x01b7   NtReadFile
+    0x04ec   RtlValidSecurityDescriptor
+    0x03ee   RtlLengthSecurityDescriptor
+    0x015d   NtOpenKeyEx
+    0x01f1   NtSetInformationKey
+    0x02e0   RtlDeleteCriticalSection
+
+  Import KERNELBASE.dll
+    Hint     Name
+    -------- --------
+    0x008a   EnumUILanguagesW
+    0x014c   GetUserDefaultUILanguage
+    0x0132   GetSystemDefaultUILanguage
+    0x001b   AreFileApisANSI
+
+  Import API-MS-WIN-Service-Core-L1-1-0.dll
+    Hint     Name
+    -------- --------
+    0x0002   StartServiceCtrlDispatcherW
+    0x0001   SetServiceStatus
+    0x0000   RegisterServiceCtrlHandlerExW
+
+  Import API-MS-WIN-Service-winsvc-L1-1-0.dll
+    Hint     Name
+    -------- --------
+    0x000b   I_ScRpcBindW
+    0x0012   QueryServiceConfig2A
+    0x0002   ControlService
+    0x0017   RegisterServiceCtrlHandlerW
+    0x0013   QueryServiceConfigA
+    0x0010   OpenSCManagerA
+    0x0014   QueryServiceStatus
+    0x0016   RegisterServiceCtrlHandlerExA
+    0x0001   ChangeServiceConfigA
+    0x0018   StartServiceA
+    0x0004   CreateServiceA
+    0x0015   RegisterServiceCtrlHandlerA
+    0x000f   NotifyServiceStatusChangeA
+    0x0003   ControlServiceExA
+    0x0000   ChangeServiceConfig2A
+    0x0019   StartServiceCtrlDispatcherA
+    0x0011   OpenServiceA
+    0x000a   I_ScRpcBindA
+
+  Import API-MS-WIN-Service-Management-L1-1-0.dll
+    Hint     Name
+    -------- --------
+    0x0000   CloseServiceHandle
+    0x0001   ControlServiceExW
+    0x0005   OpenServiceW
+    0x0003   DeleteService
+    0x0004   OpenSCManagerW
+    0x0002   CreateServiceW
+    0x0006   StartServiceW
+
+  Import API-MS-WIN-Service-Management-L2-1-0.dll
+    Hint     Name
+    -------- --------
+    0x0005   QueryServiceObjectSecurity
+    0x0002   NotifyServiceStatusChangeW
+    0x0007   SetServiceObjectSecurity
+    0x0003   QueryServiceConfig2W
+    0x0000   ChangeServiceConfig2W
+    0x0001   ChangeServiceConfigW
+    0x0006   QueryServiceStatusEx
+    0x0004   QueryServiceConfigW
+
+  Import API-MS-Win-Core-LocalRegistry-L1-1-0.dll
+    Hint     Name
+    -------- --------
+    0x0012   RegLoadKeyA
+    0x0010   RegGetValueA
+    0x001b   RegQueryInfoKeyA
+    0x0008   RegDeleteValueW
+    0x0007   RegDeleteValueA
+    0x0006   RegDeleteTreeW
+    0x000c   RegEnumValueA
+    0x0019   RegOpenKeyExW
+    0x0011   RegGetValueW
+    0x0017   RegOpenCurrentUser
+    0x000d   RegEnumValueW
+    0x0023   RegSetKeySecurity
+    0x0016   RegNotifyChangeKeyValue
+    0x000e   RegFlushKey
+    0x000b   RegEnumKeyExW
+    0x0000   RegCloseKey
+    0x0020   RegRestoreKeyW
+    0x001a   RegOpenUserClassesRoot
+    0x0004   RegDeleteKeyExW
+    0x0026   RegUnLoadKeyA
+    0x001f   RegRestoreKeyA
+    0x0005   RegDeleteTreeA
+    0x0024   RegSetValueExA
+    0x0002   RegCreateKeyExW
+    0x001d   RegQueryValueExA
+    0x001c   RegQueryInfoKeyW
+    0x000a   RegEnumKeyExA
+    0x0015   RegLoadMUIStringW
+    0x0021   RegSaveKeyExA
+    0x0001   RegCreateKeyExA
+    0x0014   RegLoadMUIStringA
+    0x0018   RegOpenKeyExA
+    0x0022   RegSaveKeyExW
+    0x000f   RegGetKeySecurity
+    0x0003   RegDeleteKeyExA
+    0x0009   RegDisablePredefinedCacheEx
+    0x0013   RegLoadKeyW
+    0x0025   RegSetValueExW
+    0x0027   RegUnLoadKeyW
+    0x001e   RegQueryValueExW
+
+  Import API-MS-Win-Core-NamedPipe-L1-1-0.dll
+    Hint     Name
+    -------- --------
+    0x0006   ImpersonateNamedPipeClient
+
+  Import API-MS-Win-Core-ProcessThreads-L1-1-0.dll
+    Hint     Name
+    -------- --------
+    0x0005   CreateThread
+    0x000c   GetCurrentThread
+    0x002a   TerminateProcess
+    0x000b   GetCurrentProcessId
+    0x000d   GetCurrentThreadId
+    0x001b   OpenThread
+    0x000a   GetCurrentProcess
+    0x0001   CreateProcessAsUserW
+    0x0027   SetThreadToken
+    0x001c   OpenThreadToken
+    0x001a   OpenProcessToken
+    0x0010   GetPriorityClass
+    0x0011   GetProcessId
+
+  Import API-MS-Win-Security-Base-L1-1-0.dll
+    Hint     Name
+    -------- --------
+    0x003d   ImpersonateLoggedOnUser
+    0x0048   MakeAbsoluteSD
+    0x0056   SetKernelObjectSecurity
+    0x003f   InitializeAcl
+    0x0015   AllocateLocallyUniqueId
+    0x0014   AllocateAndInitializeSid
+    0x005d   SetSecurityDescriptorOwner
+    0x0044   IsValidRelativeSecurityDescriptor
+    0x0033   GetSecurityDescriptorOwner
+    0x0007   AddAccessAllowedAce
+    0x0053   RevertToSelf
+    0x0028   FreeSid
+    0x0037   GetSidLengthRequired
+    0x0041   InitializeSid
+    0x000d   AddAce
+    0x0035   GetSecurityDescriptorSacl
+    0x003c   ImpersonateAnonymousToken
+    0x0023   DuplicateTokenEx
+    0x0045   IsValidSecurityDescriptor
+    0x002d   GetLengthSid
+    0x000b   AddAccessDeniedAceEx
+    0x0018   CheckTokenMembership
+    0x005f   SetSecurityDescriptorSacl
+    0x0017   AreAnyAccessesGranted
+    0x0013   AdjustTokenPrivileges
+    0x003b   GetWindowsAccountDomainSid
+    0x001d   CreatePrivateObjectSecurityWithMultipleInheritance
+    0x0027   FindFirstFreeAce
+    0x0019   ConvertToAutoInheritPrivateObjectSecurity
+    0x0057   SetPrivateObjectSecurity
+    0x0024   EqualDomainSid
+    0x0031   GetSecurityDescriptorGroup
+    0x0030   GetSecurityDescriptorDacl
+    0x001f   CreateWellKnownSid
+    0x0052   QuerySecurityAccessMask
+    0x0049   MakeAbsoluteSD2
+    0x001c   CreatePrivateObjectSecurityEx
+    0x0032   GetSecurityDescriptorLength
+    0x003e   ImpersonateSelf
+    0x0029   GetAce
+    0x0004   AccessCheckByTypeResultList
+    0x001b   CreatePrivateObjectSecurity
+    0x005b   SetSecurityDescriptorDacl
+    0x0042   IsTokenRestricted
+    0x0010   AddAuditAccessObjectAce
+    0x0012   AdjustTokenGroups
+    0x000a   AddAccessDeniedAce
+    0x0016   AreAllAccessesGranted
+    0x004a   MakeSelfRelativeSD
+    0x0060   SetTokenInformation
+    0x0046   IsValidSid
+    0x0003   AccessCheckByTypeAndAuditAlarmW
+    0x0001   AccessCheckAndAuditAlarmW
+    0x0005   AccessCheckByTypeResultListAndAuditAlarmByHandleW
+    0x001a   CopySid
+    0x004d   ObjectDeleteAuditAlarmW
+    0x002b   GetFileSecurityW
+    0x0055   SetFileSecurityW
+    0x004c   ObjectCloseAuditAlarmW
+    0x004f   ObjectPrivilegeAuditAlarmW
+    0x004e   ObjectOpenAuditAlarmW
+    0x0006   AccessCheckByTypeResultListAndAuditAlarmW
+    0x0051   PrivilegedServiceAuditAlarmW
+    0x003a   GetTokenInformation
+    0x0021   DestroyPrivateObjectSecurity
+    0x0036   GetSidIdentifierAuthority
+    0x0054   SetAclInformation
+    0x0043   IsValidAcl
+    0x0038   GetSidSubAuthority
+    0x0047   IsWellKnownSid
+    0x0059   SetSecurityAccessMask
+    0x000f   AddAuditAccessAceEx
+    0x005a   SetSecurityDescriptorControl
+    0x0020   DeleteAce
+    0x005c   SetSecurityDescriptorGroup
+    0x004b   MapGenericMask
+    0x0039   GetSidSubAuthorityCount
+    0x005e   SetSecurityDescriptorRMControl
+    0x0034   GetSecurityDescriptorRMControl
+    0x0008   AddAccessAllowedAceEx
+    0x002c   GetKernelObjectSecurity
+    0x0000   AccessCheck
+    0x002a   GetAclInformation
+    0x001e   CreateRestrictedToken
+    0x002f   GetSecurityDescriptorControl
+    0x0026   EqualSid
+    0x0058   SetPrivateObjectSecurityEx
+    0x000e   AddAuditAccessAce
+    0x0002   AccessCheckByType
+    0x0009   AddAccessAllowedObjectAce
+    0x000c   AddAccessDeniedObjectAce
+    0x0025   EqualPrefixSid
+    0x0050   PrivilegeCheck
+    0x0022   DuplicateToken
+    0x002e   GetPrivateObjectSecurity
+    0x0040   InitializeSecurityDescriptor
+
+  Import KERNEL32.dll
+    Hint     Name
+    -------- --------
+    0x01d5   GetDiskFreeSpaceExW
+    0x03c1   ReadFile
+    0x023d   GetOverlappedResult
+    0x04fb   VirtualAllocEx
+    0x04fd   VirtualFree
+    0x0382   OpenProcess
+    0x016f   GetActiveProcessorCount
+    0x02c9   GlobalMemoryStatusEx
+    0x0279   GetSystemInfo
+    0x01da   GetDriveTypeW
+    0x020c   GetLogicalDriveStringsW
+    0x0282   GetSystemWindowsDirectoryW
+    0x00e1   DeviceIoControl
+    0x02af   GetVolumeInformationW
+    0x0195   GetComputerNameW
+    0x02dd   HeapSize
+    0x03fb   ReleaseMutex
+    0x0122   ExpandEnvironmentStringsA
+    0x03d9   RegKrnInitialize
+    0x0218   GetModuleFileNameW
+    0x0351   LocalUnlock
+    0x034d   LocalLock
+    0x0192   GetComputerNameA
+    0x00ee   EncodePointer
+    0x009f   CreateMutexW
+    0x0467   SetEvent
+    0x03c4   ReadProcessMemory
+    0x0169   FreeLibraryAndExitThread
+    0x00cb   DecodePointer
+    0x00ec   DuplicateHandle
+    0x0341   LoadLibraryExW
+    0x02ec   InitializeCriticalSection
+    0x04bf   SizeofResource
+    0x0356   LockResource
+    0x009c   CreateMutexA
+    0x02db   HeapReAlloc
+    0x027d   GetSystemTime
+    0x0241   GetPrivateProfileIntW
+    0x0411   ResetEvent
+    0x0129   FileTimeToDosDateTime
+    0x00e8   DosDateTimeToFileTime
+    0x01f5   GetFileSize
+    0x01f7   GetFileTime
+    0x0466   SetErrorMode
+    0x013a   FindFirstFileExW
+    0x0076   CopyFileW
+    0x0471   SetFileInformationByHandle
+    0x014b   FindNextFileW
+    0x0559   lstrcmpiA
+    0x021c   GetModuleHandleW
+    0x047f   SetLastError
+    0x0347   LocalAlloc
+    0x034b   LocalFree
+    0x0522   WideCharToMultiByte
+    0x034e   LocalReAlloc
+    0x0369   MultiByteToWideChar
+    0x0563   lstrlenW
+    0x0194   GetComputerNameExW
+    0x00a6   CreateProcessInternalA
+    0x024a   GetProcAddress
+    0x033f   LoadLibraryA
+    0x0053   CloseHandle
+    0x0168   FreeLibrary
+    0x0342   LoadLibraryW
+    0x033c   LeaveCriticalSection
+    0x0206   GetLastError
+    0x00f2   EnterCriticalSection
+    0x03d8   RegKrnGetGlobalState
+    0x0200   GetFullPathNameW
+    0x042a   SearchPathW
+    0x02d4   HeapAlloc
+    0x02d8   HeapFree
+    0x04c3   SleepEx
+    0x0299   GetTickCount
+    0x024f   GetProcessHeap
+    0x01ef   GetFileAttributesW
+    0x0090   CreateFileW
+    0x0340   LoadLibraryExA
+    0x00cf   DelayLoadFailureHook
+    0x04e4   UnhandledExceptionFilter
+    0x04b2   SetUnhandledExceptionFilter
+    0x03a7   QueryPerformanceCounter
+    0x027f   GetSystemTimeAsFileTime
+    0x0086   CreateEventW
+    0x0419   RtlCompareMemory
+    0x0298   GetThreadUILanguage
+    0x018d   GetCommandLineW
+    0x0557   lstrcmpW
+    0x055a   lstrcmpiW
+    0x021b   GetModuleHandleExW
+    0x04c0   Sleep
+    0x0473   SetFilePointer
+    0x038a   OutputDebugStringW
+    0x0536   WriteFile
+    0x0164   FormatMessageW
+    0x0207   GetLocalTime
+    0x01ec   GetFileAttributesExW
+    0x00d7   DeleteFileW
+    0x0123   ExpandEnvironmentStringsW
+    0x0276   GetSystemDirectoryW
+    0x0359   MapViewOfFile
+    0x04e7   UnmapViewOfFile
+    0x0061   CompareFileTime
+    0x01f6   GetFileSizeEx
+    0x0213   GetLongPathNameW
+    0x008d   CreateFileMappingW
+    0x0153   FindResourceExW
+    0x0344   LoadResource
+    0x02b3   GetVolumePathNameW
+    0x00d2   DeleteCriticalSection
+    0x050a   WaitForSingleObject
+    0x01f4   GetFileMUIPath
+    0x0134   FindClose
+    0x04fe   VirtualFreeEx
+    0x01fd   GetFullPathNameA
+
+  Import RPCRT4.dll
+    Hint     Name
+    -------- --------
+    0x0161   RpcBindingBind
+    0x0203   UuidCreate
+    0x0187   RpcEpResolveBinding
+    0x0174   RpcBindingSetAuthInfoA
+    0x0051   I_RpcSNCHOption
+    0x0095   NdrClientCall2
+    0x0208   UuidFromStringW
+    0x020c   UuidToStringW
+    0x0192   RpcExceptionFilter
+    0x0177   RpcBindingSetAuthInfoW
+    0x01eb   RpcSsDestroyClientContext
+    0x003d   I_RpcMapWin32Status
+    0x002b   I_RpcExceptionFilter
+    0x0096   NdrClientCall3
+    0x0176   RpcBindingSetAuthInfoExW
+    0x0175   RpcBindingSetAuthInfoExA
+    0x01fa   RpcStringFreeW
+    0x0165   RpcBindingFree
+    0x01f6   RpcStringBindingComposeW
+    0x0167   RpcBindingFromStringBindingW
+    0x0164   RpcBindingCreateW
+
+  Export ADVAPI32.dll
+    Ordinal  Hint     Entry      Name
+    -------- -------- ---------- --------
+    0x03e8   0x0325   0x000453d0 (NONAME)
+    0x03e9   0x0168   0x00042090 I_ScGetCurrentGroupStateW
+    0x03ea   0x0000   0x00096bde A_SHAFinal
+    0x03eb   0x0001   0x00096bef A_SHAInit
+    0x03ec   0x0002   0x00096bff A_SHAUpdate
+    0x03ed   0x0003   0x000680b0 AbortSystemShutdownA
+    0x03ee   0x0004   0x00062900 AbortSystemShutdownW
+    0x03ef   0x0005   0x00013670 AccessCheck
+    0x03f0   0x0006   0x00054350 AccessCheckAndAuditAlarmA
+    0x03f1   0x0007   0x0003b2a8 AccessCheckAndAuditAlarmW
+    0x03f2   0x0008   0x00009680 AccessCheckByType
+    0x03f3   0x0009   0x00054170 AccessCheckByTypeAndAuditAlarmA
+    0x03f4   0x000a   0x0003b200 AccessCheckByTypeAndAuditAlarmW
+    0x03f5   0x000b   0x0003b194 AccessCheckByTypeResultList
+    0x03f6   0x000c   0x00053f90 AccessCheckByTypeResultListAndAuditAlarmA
+    0x03f7   0x000d   0x00053da0 AccessCheckByTypeResultListAndAuditAlarmByHandleA
+    0x03f8   0x000e   0x0003b0e0 AccessCheckByTypeResultListAndAuditAlarmByHandleW
+    0x03f9   0x000f   0x0003b02c AccessCheckByTypeResultListAndAuditAlarmW
+    0x03fa   0x0010   0x0001d22c AddAccessAllowedAce
+    0x03fb   0x0011   0x00013620 AddAccessAllowedAceEx
+    0x03fc   0x0012   0x0003aff4 AddAccessAllowedObjectAce
+    0x03fd   0x0013   0x0003afe8 AddAccessDeniedAce
+    0x03fe   0x0014   0x0003afc8 AddAccessDeniedAceEx
+    0x03ff   0x0015   0x0003af90 AddAccessDeniedObjectAce
+    0x0400   0x0016   0x0000cd20 AddAce
+    0x0401   0x0017   0x000004c0 AddAuditAccessAce
+    0x0402   0x0018   0x0003af5c AddAuditAccessAceEx
+    0x0403   0x0019   0x0003af08 AddAuditAccessObjectAce
+    0x0404   0x001a   0x0003f898 AddConditionalAce
+    0x0405   0x001b   0x00096c11 AddMandatoryAce
+    0x0406   0x001c   0x00060860 AddUsersToEncryptedFile
+    0x0407   0x001d   0x000607d0 AddUsersToEncryptedFileEx
+    0x0408   0x001e   0x0003aee0 AdjustTokenGroups
+    0x0409   0x001f   0x0001d7a0 AdjustTokenPrivileges
+    0x040a   0x0020   0x0001d3ec AllocateAndInitializeSid
+    0x040b   0x0021   0x000004a4 AllocateLocallyUniqueId
+    0x040c   0x0022   0x0003aecc AreAllAccessesGranted
+    0x040d   0x0023   0x0003aec0 AreAnyAccessesGranted
+    0x040e   0x0024   0x000098f0 AuditComputeEffectivePolicyBySid
+    0x040f   0x0025   0x00060130 AuditComputeEffectivePolicyByToken
+    0x0410   0x0026   0x00052ec0 AuditEnumerateCategories
+    0x0411   0x0027   0x00048e60 AuditEnumeratePerUserPolicy
+    0x0412   0x0028   0x00009b90 AuditEnumerateSubCategories
+    0x0413   0x0029   0x0001e6d0 AuditFree
+    0x0414   0x002a   0x00048db0 AuditLookupCategoryGuidFromCategoryId
+    0x0415   0x002b   0x00048df0 AuditLookupCategoryIdFromCategoryGuid
+    0x0416   0x002c   0x000600a0 AuditLookupCategoryNameA
+    0x0417   0x002d   0x00052d80 AuditLookupCategoryNameW
+    0x0418   0x002e   0x00060010 AuditLookupSubCategoryNameA
+    0x0419   0x002f   0x00052c60 AuditLookupSubCategoryNameW
+    0x041a   0x0030   0x0003cc68 AuditQueryGlobalSaclA
+    0x041b   0x0031   0x0003cd20 AuditQueryGlobalSaclW
+    0x041c   0x0032   0x00048ec0 AuditQueryPerUserPolicy
+    0x041d   0x0033   0x00048d10 AuditQuerySecurity
+    0x041e   0x0034   0x00009850 AuditQuerySystemPolicy
+    0x041f   0x0035   0x0003cd84 AuditSetGlobalSaclA
+    0x0420   0x0036   0x000099cc AuditSetGlobalSaclW
+    0x0421   0x0037   0x00048f60 AuditSetPerUserPolicy
+    0x0422   0x0038   0x00052b60 AuditSetSecurity
+    0x0423   0x0039   0x00009b10 AuditSetSystemPolicy
+    0x0424   0x003a   0x00067200 BackupEventLogA
+    0x0425   0x003b   0x000614e0 BackupEventLogW
+    0x0426   0x003c   0x00001070 BuildExplicitAccessWithNameA
+    0x0427   0x003d   0x00001070 BuildExplicitAccessWithNameW
+    0x0428   0x003e   0x00044cb0 BuildImpersonateExplicitAccessWithNameA
+    0x0429   0x003f   0x00044cb0 BuildImpersonateExplicitAccessWithNameW
+    0x042a   0x0040   0x00044990 BuildImpersonateTrusteeA
+    0x042b   0x0041   0x00044990 BuildImpersonateTrusteeW
+    0x042c   0x0042   0x00064e50 BuildSecurityDescriptorA
+    0x042d   0x0043   0x00007790 BuildSecurityDescriptorW
+    0x042e   0x0044   0x000010a0 BuildTrusteeWithNameA
+    0x042f   0x0045   0x000010a0 BuildTrusteeWithNameW
+    0x0430   0x0046   0x00044870 BuildTrusteeWithObjectsAndNameA
+    0x0431   0x0047   0x00044870 BuildTrusteeWithObjectsAndNameW
+    0x0432   0x0048   0x000448c0 BuildTrusteeWithObjectsAndSidA
+    0x0433   0x0049   0x000448c0 BuildTrusteeWithObjectsAndSidW
+    0x0434   0x004a   0x00044970 BuildTrusteeWithSidA
+    0x0435   0x004b   0x00044970 BuildTrusteeWithSidW
+    0x0436   0x004c   0x00050270 CancelOverlappedAccess
+    0x0437   0x004d   0x0003aeb4 ChangeServiceConfig2A
+    0x0438   0x004e   0x0003aea8 ChangeServiceConfig2W
+    0x0439   0x004f   0x0003ae3c ChangeServiceConfigA
+    0x043a   0x0050   0x0003add0 ChangeServiceConfigW
+    0x043b   0x0051   0x0000f910 CheckTokenMembership
+    0x043c   0x0052   0x00067270 ClearEventLogA
+    0x043d   0x0053   0x00061660 ClearEventLogW
+    0x043e   0x0054   0x00023110 CloseCodeAuthzLevel
+    0x043f   0x0055   0x00049a90 CloseEncryptedFileRaw
+    0x0440   0x0056   0x00008610 CloseEventLog
+    0x0441   0x0057   0x0001a1c4 CloseServiceHandle
+    0x0442   0x0058   0x0003e2d0 CloseThreadWaitChainSession
+    0x0443   0x0059   0x00012da0 CloseTrace
+    0x0444   0x005a   0x00074170 CommandLineFromMsiDescriptor
+    0x0445   0x005b   0x00023200 ComputeAccessTokenFromCodeAuthzLevel
+    0x0446   0x005c   0x00024a68 ControlService
+    0x0447   0x005d   0x0003adc0 ControlServiceExA
+    0x0448   0x005e   0x0003ada8 ControlServiceExW
+    0x0449   0x005f   0x00062f70 ControlTraceA
+    0x044a   0x0060   0x00011b50 ControlTraceW
+    0x044b   0x0061   0x0005c420 ConvertAccessToSecurityDescriptorA
+    0x044c   0x0062   0x00050570 ConvertAccessToSecurityDescriptorW
+    0x044d   0x0063   0x00073d10 ConvertSDToStringSDRootDomainA
+    0x044e   0x0064   0x00073ca0 ConvertSDToStringSDRootDomainW
+    0x044f   0x0065   0x00064900 ConvertSecurityDescriptorToAccessA
+    0x0450   0x0066   0x00064900 ConvertSecurityDescriptorToAccessNamedA
+    0x0451   0x0067   0x0005c1e0 ConvertSecurityDescriptorToAccessNamedW
+    0x0452   0x0068   0x0005c1e0 ConvertSecurityDescriptorToAccessW
+    0x0453   0x0069   0x000739a0 ConvertSecurityDescriptorToStringSecurityDescriptorA
+    0x0454   0x006a   0x000047c0 ConvertSecurityDescriptorToStringSecurityDescriptorW
+    0x0455   0x006b   0x0004c320 ConvertSidToStringSidA
+    0x0456   0x006c   0x0001d280 ConvertSidToStringSidW
+    0x0457   0x006d   0x00073770 ConvertStringSDToSDDomainA
+    0x0458   0x006e   0x000736b0 ConvertStringSDToSDDomainW
+    0x0459   0x006f   0x000738f0 ConvertStringSDToSDRootDomainA
+    0x045a   0x0070   0x00073880 ConvertStringSDToSDRootDomainW
+    0x045b   0x0071   0x0000b0d0 ConvertStringSecurityDescriptorToSecurityDescriptorA
+    0x045c   0x0072   0x00013ef0 ConvertStringSecurityDescriptorToSecurityDescriptorW
+    0x045d   0x0073   0x0001fc70 ConvertStringSidToSidA
+    0x045e   0x0074   0x0001f420 ConvertStringSidToSidW
+    0x045f   0x0075   0x0003ad80 ConvertToAutoInheritPrivateObjectSecurity
+    0x0460   0x0076   0x000132f0 CopySid
+    0x0461   0x0077   0x00069850 CreateCodeAuthzLevel
+    0x0462   0x0078   0x00024790 CreatePrivateObjectSecurity
+    0x0463   0x0079   0x000114b8 CreatePrivateObjectSecurityEx
+    0x0464   0x007a   0x0003ad30 CreatePrivateObjectSecurityWithMultipleInheritance
+    0x0465   0x007b   0x00049af0 CreateProcessAsUserA
+    0x0466   0x007c   0x0000db80 CreateProcessAsUserW
+    0x0467   0x007d   0x00070010 CreateProcessWithLogonW
+    0x0468   0x007e   0x0006ffa0 CreateProcessWithTokenW
+    0x0469   0x007f   0x0003acdc CreateRestrictedToken
+    0x046a   0x0080   0x0003ac5c CreateServiceA
+    0x046b   0x0081   0x000249c8 CreateServiceW
+    0x046c   0x0082   0x00096c2c CreateTraceInstanceId
+    0x046d   0x0083   0x0000fc90 CreateWellKnownSid
+    0x046e   0x0084   0x0006a3b0 CredBackupCredentials
+    0x046f   0x0085   0x0005fcf0 CredDeleteA
+    0x0470   0x0086   0x0005fc30 CredDeleteW
+    0x0471   0x0087   0x0006a260 CredEncryptAndMarshalBinaryBlob
+    0x0472   0x0088   0x0006d0b0 CredEnumerateA
+    0x0473   0x0089   0x0006cf80 CredEnumerateW
+    0x0474   0x008a   0x0006ca30 CredFindBestCredentialA
+    0x0475   0x008b   0x0006c920 CredFindBestCredentialW
+    0x0476   0x008c   0x0001e6d0 CredFree
+    0x0477   0x008d   0x000527f0 CredGetSessionTypes
+    0x0478   0x008e   0x0005fb30 CredGetTargetInfoA
+    0x0479   0x008f   0x0005fa30 CredGetTargetInfoW
+    0x047a   0x0090   0x00065ff0 CredIsMarshaledCredentialA
+    0x047b   0x0091   0x00065fb0 CredIsMarshaledCredentialW
+    0x047c   0x0092   0x0006a070 CredIsProtectedA
+    0x047d   0x0093   0x0000e9c0 CredIsProtectedW
+    0x047e   0x0094   0x0005f9d0 CredMarshalCredentialA
+    0x047f   0x0095   0x00009290 CredMarshalCredentialW
+    0x0480   0x0096   0x0000cb60 CredProfileLoaded
+    0x0481   0x0097   0x000245c0 CredProfileUnloaded
+    0x0482   0x0098   0x0006c6b0 CredProtectA
+    0x0483   0x0099   0x00009060 CredProtectW
+    0x0484   0x009a   0x0006d2f0 CredReadA
+    0x0485   0x009b   0x0006c800 CredReadByTokenHandle
+    0x0486   0x009c   0x0006cc70 CredReadDomainCredentialsA
+    0x0487   0x009d   0x0006cb40 CredReadDomainCredentialsW
+    0x0488   0x009e   0x0006d1e0 CredReadW
+    0x0489   0x009f   0x00042070 CredRenameA
+    0x048a   0x00a0   0x00042070 CredRenameW
+    0x048b   0x00a1   0x0006a290 CredRestoreCredentials
+    0x048c   0x00a2   0x0005f940 CredUnmarshalCredentialA
+    0x048d   0x00a3   0x0000e930 CredUnmarshalCredentialW
+    0x048e   0x00a4   0x0006a0f0 CredUnprotectA
+    0x048f   0x00a5   0x00007df0 CredUnprotectW
+    0x0490   0x00a6   0x0006d4b0 CredWriteA
+    0x0491   0x00a7   0x0006ce80 CredWriteDomainCredentialsA
+    0x0492   0x00a8   0x0006cda0 CredWriteDomainCredentialsW
+    0x0493   0x00a9   0x0006d400 CredWriteW
+    0x0494   0x00aa   0x0006a690 CredpConvertCredential
+    0x0495   0x00ab   0x0005fdb0 CredpConvertOneCredentialSize
+    0x0496   0x00ac   0x00052910 CredpConvertTargetInfo
+    0x0497   0x00ad   0x0005ff50 CredpDecodeCredential
+    0x0498   0x00ae   0x0005ffa0 CredpEncodeCredential
+    0x0499   0x00af   0x00065f80 CredpEncodeSecret
+    0x049a   0x00b0   0x0000a310 CryptAcquireContextA
+    0x049b   0x00b1   0x0000f91c CryptAcquireContextW
+    0x049c   0x00b2   0x0003ac50 CryptContextAddRef
+    0x049d   0x00b3   0x0000fa08 CryptCreateHash
+    0x049e   0x00b4   0x0000cad0 CryptDecrypt
+    0x049f   0x00b5   0x0003ac30 CryptDeriveKey
+    0x04a0   0x00b6   0x0000f9f4 CryptDestroyHash
+    0x04a1   0x00b7   0x0000db04 CryptDestroyKey
+    0x04a2   0x00b8   0x0003ac1c CryptDuplicateHash
+    0x04a3   0x00b9   0x0003ac10 CryptDuplicateKey
+    0x04a4   0x00ba   0x0003abd0 CryptEncrypt
+    0x04a5   0x00bb   0x0003aba8 CryptEnumProviderTypesA
+    0x04a6   0x00bc   0x0003ab80 CryptEnumProviderTypesW
+    0x04a7   0x00bd   0x0003ab58 CryptEnumProvidersA
+    0x04a8   0x00be   0x0003ab30 CryptEnumProvidersW
+    0x04a9   0x00bf   0x0000a2b0 CryptExportKey
+    0x04aa   0x00c0   0x00000dc8 CryptGenKey
+    0x04ab   0x00c1   0x0000fbe0 CryptGenRandom
+    0x04ac   0x00c2   0x0003ab10 CryptGetDefaultProviderA
+    0x04ad   0x00c3   0x0003aaf0 CryptGetDefaultProviderW
+    0x04ae   0x00c4   0x0000fa40 CryptGetHashParam
+    0x04af   0x00c5   0x0003aad4 CryptGetKeyParam
+    0x04b0   0x00c6   0x0003aab8 CryptGetProvParam
+    0x04b1   0x00c7   0x0003aaac CryptGetUserKey
+    0x04b2   0x00c8   0x0000f9e0 CryptHashData
+    0x04b3   0x00c9   0x0003aaa0 CryptHashSessionKey
+    0x04b4   0x00ca   0x0000db18 CryptImportKey
+    0x04b5   0x00cb   0x0000fcc0 CryptReleaseContext
+    0x04b6   0x00cc   0x0003aa94 CryptSetHashParam
+    0x04b7   0x00cd   0x0003aa88 CryptSetKeyParam
+    0x04b8   0x00ce   0x0003aa7c CryptSetProvParam
+    0x04b9   0x00cf   0x0003aa70 CryptSetProviderA
+    0x04ba   0x00d0   0x0003aa5c CryptSetProviderExA
+    0x04bb   0x00d1   0x0003aa50 CryptSetProviderExW
+    0x04bc   0x00d2   0x0003aa44 CryptSetProviderW
+    0x04bd   0x00d3   0x0003aa1c CryptSignHashA
+    0x04be   0x00d4   0x0003a9f4 CryptSignHashW
+    0x04bf   0x00d5   0x0003a9cc CryptVerifySignatureA
+    0x04c0   0x00d6   0x0000db4c CryptVerifySignatureW
+    0x04c1   0x00d7   0x00060cb0 DecryptFileA
+    0x04c2   0x00d8   0x00060c40 DecryptFileW
+    0x04c3   0x00d9   0x0001d3c0 DeleteAce
+    0x04c4   0x00da   0x00024a54 DeleteService
+    0x04c5   0x00db   0x00019940 DeregisterEventSource
+    0x04c6   0x00dc   0x000114a4 DestroyPrivateObjectSecurity
+    0x04c7   0x00dd   0x000606c0 DuplicateEncryptionInfoFile
+    0x04c8   0x00de   0x0000f1a0 DuplicateToken
+    0x04c9   0x00df   0x0000f158 DuplicateTokenEx
+    0x04ca   0x00e0   0x00055ef0 ElfBackupEventLogFileA
+    0x04cb   0x00e1   0x00056490 ElfBackupEventLogFileW
+    0x04cc   0x00e2   0x00056740 ElfChangeNotify
+    0x04cd   0x00e3   0x00055fb0 ElfClearEventLogFileA
+    0x04ce   0x00e4   0x00056550 ElfClearEventLogFileW
+    0x04cf   0x00e5   0x00008640 ElfCloseEventLog
+    0x04d0   0x00e6   0x00019970 ElfDeregisterEventSource
+    0x04d1   0x00e7   0x0004be70 ElfFlushEventLog
+    0x04d2   0x00e8   0x000568c0 ElfNumberOfRecords
+    0x04d3   0x00e9   0x00056810 ElfOldestRecord
+    0x04d4   0x00ea   0x00056050 ElfOpenBackupEventLogA
+    0x04d5   0x00eb   0x000565f0 ElfOpenBackupEventLogW
+    0x04d6   0x00ec   0x00056180 ElfOpenEventLogA
+    0x04d7   0x00ed   0x00008320 ElfOpenEventLogW
+    0x04d8   0x00ee   0x00055db0 ElfReadEventLogA
+    0x04d9   0x00ef   0x00056350 ElfReadEventLogW
+    0x04da   0x00f0   0x00026940 ElfRegisterEventSourceA
+    0x04db   0x00f1   0x00014ff0 ElfRegisterEventSourceW
+    0x04dc   0x00f2   0x00055c20 ElfReportEventA
+    0x04dd   0x00f3   0x00041bf0 ElfReportEventAndSourceW
+    0x04de   0x00f4   0x0000f290 ElfReportEventW
+    0x04df   0x00f5   0x00012130 EnableTrace
+    0x04e0   0x00f6   0x00012050 EnableTraceEx
+    0x04e1   0x00f7   0x00011e10 EnableTraceEx2
+    0x04e2   0x00f8   0x00060dd0 EncryptFileA
+    0x04e3   0x00f9   0x00060d70 EncryptFileW
+    0x04e4   0x00fa   0x000605f0 EncryptedFileKeyInfo
+    0x04e5   0x00fb   0x00060670 EncryptionDisable
+    0x04e6   0x00fc   0x0004c490 EnumDependentServicesA
+    0x04e7   0x00fd   0x00000860 EnumDependentServicesW
+    0x04e8   0x00fe   0x0004c9d0 EnumServiceGroupW
+    0x04e9   0x00ff   0x0004c800 EnumServicesStatusA
+    0x04ea   0x0100   0x0004c600 EnumServicesStatusExA
+    0x04eb   0x0101   0x0000dec0 EnumServicesStatusExW
+    0x04ec   0x0102   0x0004cc00 EnumServicesStatusW
+    0x04ed   0x0103   0x00025b70 EnumerateTraceGuids
+    0x04ee   0x0104   0x0004f230 EnumerateTraceGuidsEx
+    0x04ef   0x0105   0x0003a9c0 EqualDomainSid
+    0x04f0   0x0106   0x0000a598 EqualPrefixSid
+    0x04f1   0x0107   0x0001d610 EqualSid
+    0x04f2   0x0108   0x00002050 EventAccessControl
+    0x04f3   0x0109   0x00002460 EventAccessQuery
+    0x04f4   0x010a   0x0004f320 EventAccessRemove
+    0x04f5   0x010b   0x00096c4b EventActivityIdControl
+    0x04f6   0x010c   0x00096c6b EventEnabled
+    0x04f7   0x010d   0x00096c81 EventProviderEnabled
+    0x04f8   0x010e   0x00096c9f EventRegister
+    0x04f9   0x010f   0x00096cb6 EventUnregister
+    0x04fa   0x0110   0x00096ccf EventWrite
+    0x04fb   0x0111   0x00096ce3 EventWriteEndScenario
+    0x04fc   0x0112   0x0003a980 EventWriteEx
+    0x04fd   0x0113   0x00096d02 EventWriteStartScenario
+    0x04fe   0x0114   0x00096d23 EventWriteString
+    0x04ff   0x0115   0x00096d3d EventWriteTransfer
+    0x0500   0x0116   0x00060b80 FileEncryptionStatusA
+    0x0501   0x0117   0x00060b30 FileEncryptionStatusW
+    0x0502   0x0118   0x0003a970 FindFirstFreeAce
+    0x0503   0x0119   0x000604f0 FlushEfsCache
+    0x0504   0x011a   0x00068430 FlushTraceA
+    0x0505   0x011b   0x00006490 FlushTraceW
+    0x0506   0x011c   0x00049a30 FreeEncryptedFileKeyInfo
+    0x0507   0x011d   0x000499a0 FreeEncryptedFileMetadata
+    0x0508   0x011e   0x00049a60 FreeEncryptionCertificateHashList
+    0x0509   0x011f   0x000449b0 FreeInheritedFromArray
+    0x050a   0x0120   0x0001d608 FreeSid
+    0x050b   0x0121   0x00064660 GetAccessPermissionsForObjectA
+    0x050c   0x0122   0x0005bac0 GetAccessPermissionsForObjectW
+    0x050d   0x0123   0x0001359c GetAce
+    0x050e   0x0124   0x0000d520 GetAclInformation
+    0x050f   0x0125   0x0005dbe0 GetAuditedPermissionsFromAclA
+    0x0510   0x0126   0x00044cf0 GetAuditedPermissionsFromAclW
+    0x0511   0x0127   0x00060e80 GetCurrentHwProfileA
+    0x0512   0x0128   0x00000550 GetCurrentHwProfileW
+    0x0513   0x0129   0x0005dc60 GetEffectiveRightsFromAclA
+    0x0514   0x012a   0x00044de0 GetEffectiveRightsFromAclW
+    0x0515   0x012b   0x00049a00 GetEncryptedFileMetadata
+    0x0516   0x012c   0x000086d0 GetEventLogInformation
+    0x0517   0x012d   0x00050850 GetExplicitEntriesFromAclA
+    0x0518   0x012e   0x00044d90 GetExplicitEntriesFromAclW
+    0x0519   0x012f   0x00053860 GetFileSecurityA
+    0x051a   0x0130   0x0000b030 GetFileSecurityW
+    0x051b   0x0131   0x0000a000 GetInformationCodeAuthzLevelW
+    0x051c   0x0132   0x0000a870 GetInformationCodeAuthzPolicyW
+    0x051d   0x0133   0x00044ba0 GetInheritanceSourceA
+    0x051e   0x0134   0x000449f0 GetInheritanceSourceW
+    0x051f   0x0135   0x000135e0 GetKernelObjectSecurity
+    0x0520   0x0136   0x0001d1e4 GetLengthSid
+    0x0521   0x0137   0x0005ee70 GetLocalManagedApplicationData
+    0x0522   0x0138   0x0005f0a0 GetLocalManagedApplications
+    0x0523   0x0139   0x00052280 GetManagedApplicationCategories
+    0x0524   0x013a   0x0005ee50 GetManagedApplications
+    0x0525   0x013b   0x000447e0 GetMultipleTrusteeA
+    0x0526   0x013c   0x00044800 GetMultipleTrusteeOperationA
+    0x0527   0x013d   0x00044800 GetMultipleTrusteeOperationW
+    0x0528   0x013e   0x000447e0 GetMultipleTrusteeW
+    0x0529   0x013f   0x0005dd60 GetNamedSecurityInfoA
+    0x052a   0x0140   0x00064bb0 GetNamedSecurityInfoExA
+    0x052b   0x0141   0x0005d660 GetNamedSecurityInfoExW
+    0x052c   0x0142   0x00011580 GetNamedSecurityInfoW
+    0x052d   0x0143   0x00061830 GetNumberOfEventLogRecords
+    0x052e   0x0144   0x00061800 GetOldestEventLogRecord
+    0x052f   0x0145   0x000502f0 GetOverlappedAccessResults
+    0x0530   0x0146   0x0003a950 GetPrivateObjectSecurity
+    0x0531   0x0147   0x0000cd0c GetSecurityDescriptorControl
+    0x0532   0x0148   0x0001d240 GetSecurityDescriptorDacl
+    0x0533   0x0149   0x0000cd60 GetSecurityDescriptorGroup
+    0x0534   0x014a   0x0000cdc4 GetSecurityDescriptorLength
+    0x0535   0x014b   0x0000cd48 GetSecurityDescriptorOwner
+    0x0536   0x014c   0x0003a944 GetSecurityDescriptorRMControl
+    0x0537   0x014d   0x000135c0 GetSecurityDescriptorSacl
+    0x0538   0x014e   0x0000ce70 GetSecurityInfo
+    0x0539   0x014f   0x00064940 GetSecurityInfoExA
+    0x053a   0x0150   0x0005cc70 GetSecurityInfoExW
+    0x053b   0x0151   0x0004cf60 GetServiceDisplayNameA
+    0x053c   0x0152   0x00024b20 GetServiceDisplayNameW
+    0x053d   0x0153   0x0004cff0 GetServiceKeyNameA
+    0x053e   0x0154   0x00024bf0 GetServiceKeyNameW
+    0x053f   0x0155   0x00009d80 GetSidIdentifierAuthority
+    0x0540   0x0156   0x0000cd74 GetSidLengthRequired
+    0x0541   0x0157   0x00013314 GetSidSubAuthority
+    0x0542   0x0158   0x00013300 GetSidSubAuthorityCount
+    0x0543   0x0159   0x0003fb40 GetThreadWaitChain
+    0x0544   0x015a   0x0001d450 GetTokenInformation
+    0x0545   0x015b   0x00096d59 GetTraceEnableFlags
+    0x0546   0x015c   0x00096d76 GetTraceEnableLevel
+    0x0547   0x015d   0x00096d93 GetTraceLoggerHandle
+    0x0548   0x015e   0x00044820 GetTrusteeFormA
+    0x0549   0x015f   0x00044820 GetTrusteeFormW
+    0x054a   0x0160   0x00044860 GetTrusteeNameA
+    0x054b   0x0161   0x00044860 GetTrusteeNameW
+    0x054c   0x0162   0x00044840 GetTrusteeTypeA
+    0x054d   0x0163   0x00044840 GetTrusteeTypeW
+    0x054e   0x0164   0x0000fba0 GetUserNameA
+    0x054f   0x0165   0x00013d30 GetUserNameW
+    0x0550   0x0166   0x0003a938 GetWindowsAccountDomainSid
+    0x0551   0x0167   0x00096db1 I_QueryTagInformation
+    0x0552   0x0169   0x00096de8 I_ScIsSecurityProcess
+    0x0553   0x016a   0x00096e1f I_ScPnPGetServiceName
+    0x0554   0x016b   0x00096e56 I_ScQueryServiceConfig
+    0x0555   0x016c   0x00096e8e I_ScSendPnPMessage
+    0x0556   0x016d   0x00096ec2 I_ScSendTSMessage
+    0x0557   0x016e   0x00042070 I_ScSetServiceBitsA
+    0x0558   0x016f   0x00007a00 I_ScSetServiceBitsW
+    0x0559   0x0170   0x00096ef5 I_ScValidatePnPService
+    0x055a   0x0171   0x00022280 IdentifyCodeAuthzLevelW
+    0x055b   0x0172   0x0003a92c ImpersonateAnonymousToken
+    0x055c   0x0173   0x0000ea38 ImpersonateLoggedOnUser
+    0x055d   0x0174   0x0003a920 ImpersonateNamedPipeClient
+    0x055e   0x0175   0x0000cbac ImpersonateSelf
+    0x055f   0x0176   0x0001d150 InitializeAcl
+    0x0560   0x0177   0x0001d170 InitializeSecurityDescriptor
+    0x0561   0x0178   0x0000cd90 InitializeSid
+    0x0562   0x0179   0x00067fc0 InitiateShutdownA
+    0x0563   0x017a   0x00062800 InitiateShutdownW
+    0x0564   0x017b   0x00068220 InitiateSystemShutdownA
+    0x0565   0x017c   0x00068120 InitiateSystemShutdownExA
+    0x0566   0x017d   0x00062970 InitiateSystemShutdownExW
+    0x0567   0x017e   0x00062a90 InitiateSystemShutdownW
+    0x0568   0x017f   0x00074c80 InstallApplication
+    0x0569   0x0180   0x00024270 IsTextUnicode
+    0x056a   0x0181   0x0000eeec IsTokenRestricted
+    0x056b   0x0182   0x00045a40 IsTokenUntrusted
+    0x056c   0x0183   0x0000b0b0 IsValidAcl
+    0x056d   0x0184   0x00096f2d IsValidRelativeSecurityDescriptor
+    0x056e   0x0185   0x0000d564 IsValidSecurityDescriptor
+    0x056f   0x0186   0x00013330 IsValidSid
+    0x0570   0x0187   0x0000b09c IsWellKnownSid
+    0x0571   0x0188   0x0004cee0 LockServiceDatabase
+    0x0572   0x0189   0x00070170 LogonUserA
+    0x0573   0x018a   0x00070100 LogonUserExA
+    0x0574   0x018b   0x0000da74 LogonUserExExW
+    0x0575   0x018c   0x00070090 LogonUserExW
+    0x0576   0x018d   0x0000ea60 LogonUserW
+    0x0577   0x018e   0x0003e87c LookupAccountNameA
+    0x0578   0x018f   0x0000fec4 LookupAccountNameW
+    0x0579   0x0190   0x0003e5f4 LookupAccountSidA
+    0x057a   0x0191   0x0001d688 LookupAccountSidW
+    0x057b   0x0192   0x000669a0 LookupPrivilegeDisplayNameA
+    0x057c   0x0193   0x00066820 LookupPrivilegeDisplayNameW
+    0x057d   0x0194   0x00066cd0 LookupPrivilegeNameA
+    0x057e   0x0195   0x00066b70 LookupPrivilegeNameW
+    0x057f   0x0196   0x00000fb0 LookupPrivilegeValueA
+    0x0580   0x0197   0x0001da00 LookupPrivilegeValueW
+    0x0581   0x0198   0x0005d940 LookupSecurityDescriptorPartsA
+    0x0582   0x0199   0x00050600 LookupSecurityDescriptorPartsW
+    0x0583   0x019a   0x00048980 LsaAddAccountRights
+    0x0584   0x019b   0x00047a50 LsaAddPrivilegesToAccount
+    0x0585   0x019c   0x000481f0 LsaClearAuditLog
+    0x0586   0x019d   0x0001fd30 LsaClose
+    0x0587   0x019e   0x00069fa0 LsaCreateAccount
+    0x0588   0x019f   0x00069d30 LsaCreateSecret
+    0x0589   0x01a0   0x00069ed0 LsaCreateTrustedDomain
+    0x058a   0x01a1   0x00065bf0 LsaCreateTrustedDomainEx
+    0x058b   0x01a2   0x00052530 LsaDelete
+    0x058c   0x01a3   0x00048710 LsaDeleteTrustedDomain
+    0x058d   0x01a4   0x000489f0 LsaEnumerateAccountRights
+    0x058e   0x01a5   0x00047c60 LsaEnumerateAccounts
+    0x058f   0x01a6   0x00048aa0 LsaEnumerateAccountsWithUserRight
+    0x0590   0x01a7   0x00047b10 LsaEnumeratePrivileges
+    0x0591   0x01a8   0x00047ab0 LsaEnumeratePrivilegesOfAccount
+    0x0592   0x01a9   0x000027e0 LsaEnumerateTrustedDomains
+    0x0593   0x01aa   0x000485a0 LsaEnumerateTrustedDomainsEx
+    0x0594   0x01ab   0x0000fca0 LsaFreeMemory
+    0x0595   0x01ac   0x00047990 LsaGetQuotasForAccount
+    0x0596   0x01ad   0x0005f3e0 LsaGetRemoteUserName
+    0x0597   0x01ae   0x000478d0 LsaGetSystemAccessAccount
+    0x0598   0x01af   0x00009da0 LsaGetUserName
+    0x0599   0x01b0   0x0000aca0 LsaICLookupNames
+    0x059a   0x01b1   0x000037c0 LsaICLookupNamesWithCreds
+    0x059b   0x01b2   0x0000d300 LsaICLookupSids
+    0x059c   0x01b3   0x00003ab0 LsaICLookupSidsWithCreds
+    0x059d   0x01b4   0x0005f5b0 LsaLookupNames
+    0x059e   0x01b5   0x0000ac30 LsaLookupNames2
+    0x059f   0x01b6   0x00047ea0 LsaLookupPrivilegeDisplayName
+    0x05a0   0x01b7   0x00048150 LsaLookupPrivilegeName
+    0x05a1   0x01b8   0x0001dad0 LsaLookupPrivilegeValue
+    0x05a2   0x01b9   0x0000d190 LsaLookupSids
+    0x05a3   0x01ba   0x000526d0 LsaManageSidNameMapping
+    0x05a4   0x01bb   0x000477f0 LsaNtStatusToWinError
+    0x05a5   0x01bc   0x00069c60 LsaOpenAccount
+    0x05a6   0x01bd   0x0001e780 LsaOpenPolicy
+    0x05a7   0x01be   0x00065a60 LsaOpenPolicySce
+    0x05a8   0x01bf   0x00069b90 LsaOpenSecret
+    0x05a9   0x01c0   0x00069e00 LsaOpenTrustedDomain
+    0x05aa   0x01c1   0x00065b30 LsaOpenTrustedDomainByName
+    0x05ab   0x01c2   0x00048530 LsaQueryDomainInformationPolicy
+    0x05ac   0x01c3   0x00048460 LsaQueryForestTrustInformation
+    0x05ad   0x01c4   0x00047bc0 LsaQueryInfoTrustedDomain
+    0x05ae   0x01c5   0x0001fda0 LsaQueryInformationPolicy
+    0x05af   0x01c6   0x00069af0 LsaQuerySecret
+    0x05b0   0x01c7   0x00047e10 LsaQuerySecurityObject
+    0x05b1   0x01c8   0x00048850 LsaQueryTrustedDomainInfo
+    0x05b2   0x01c9   0x000486a0 LsaQueryTrustedDomainInfoByName
+    0x05b3   0x01ca   0x00048910 LsaRemoveAccountRights
+    0x05b4   0x01cb   0x000479f0 LsaRemovePrivilegesFromAccount
+    0x05b5   0x01cc   0x00005ee0 LsaRetrievePrivateData
+    0x05b6   0x01cd   0x000484c0 LsaSetDomainInformationPolicy
+    0x05b7   0x01ce   0x000483f0 LsaSetForestTrustInformation
+    0x05b8   0x01cf   0x000525c0 LsaSetInformationPolicy
+    0x05b9   0x01d0   0x00065860 LsaSetInformationTrustedDomain
+    0x05ba   0x01d1   0x00047930 LsaSetQuotasForAccount
+    0x05bb   0x01d2   0x000657f0 LsaSetSecret
+    0x05bc   0x01d3   0x00047d00 LsaSetSecurityObject
+    0x05bd   0x01d4   0x00047870 LsaSetSystemAccessAccount
+    0x05be   0x01d5   0x00065cd0 LsaSetTrustedDomainInfoByName
+    0x05bf   0x01d6   0x00048770 LsaSetTrustedDomainInformation
+    0x05c0   0x01d7   0x00065ee0 LsaStorePrivateData
+    0x05c1   0x01d8   0x00096f5a MD4Final
+    0x05c2   0x01d9   0x00096f69 MD4Init
+    0x05c3   0x01da   0x00096f77 MD4Update
+    0x05c4   0x01db   0x00096f87 MD5Final
+    0x05c5   0x01dc   0x00096f96 MD5Init
+    0x05c6   0x01dd   0x00096fa4 MD5Update
+    0x05c7   0x01de   0x000663c0 MSChapSrvChangePassword
+    0x05c8   0x01df   0x000532b0 MSChapSrvChangePassword2
+    0x05c9   0x01e0   0x0000d0a8 MakeAbsoluteSD
+    0x05ca   0x01e1   0x0003a910 MakeAbsoluteSD2
+    0x05cb   0x01e2   0x0000cf38 MakeSelfRelativeSD
+    0x05cc   0x01e3   0x0000a32c MapGenericMask
+    0x05cd   0x01e4   0x00003f40 NotifyBootConfigStatus
+    0x05ce   0x01e5   0x00061860 NotifyChangeEventLog
+    0x05cf   0x01e6   0x0000cdb8 NotifyServiceStatusChange
+    0x05d0   0x01e7   0x000268c0 NotifyServiceStatusChangeA
+    0x05d1   0x01e8   0x0000cdb0 NotifyServiceStatusChangeW
+    0x05d2   0x01e9   0x00053af0 ObjectCloseAuditAlarmA
+    0x05d3   0x01ea   0x0003a900 ObjectCloseAuditAlarmW
+    0x05d4   0x01eb   0x00053a70 ObjectDeleteAuditAlarmA
+    0x05d5   0x01ec   0x0003a8f4 ObjectDeleteAuditAlarmW
+    0x05d6   0x01ed   0x00053c10 ObjectOpenAuditAlarmA
+    0x05d7   0x01ee   0x0003a880 ObjectOpenAuditAlarmW
+    0x05d8   0x01ef   0x00053b70 ObjectPrivilegeAuditAlarmA
+    0x05d9   0x01f0   0x0003a858 ObjectPrivilegeAuditAlarmW
+    0x05da   0x01f1   0x00067130 OpenBackupEventLogA
+    0x05db   0x01f2   0x00061350 OpenBackupEventLogW
+    0x05dc   0x01f3   0x00060a80 OpenEncryptedFileRawA
+    0x05dd   0x01f4   0x00060a20 OpenEncryptedFileRawW
+    0x05de   0x01f5   0x00061260 OpenEventLogA
+    0x05df   0x01f6   0x000082c0 OpenEventLogW
+    0x05e0   0x01f7   0x0001d470 OpenProcessToken
+    0x05e1   0x01f8   0x00019720 OpenSCManagerA
+    0x05e2   0x01f9   0x0000dbf8 OpenSCManagerW
+    0x05e3   0x01fa   0x0001970c OpenServiceA
+    0x05e4   0x01fb   0x0000dc10 OpenServiceW
+    0x05e5   0x01fc   0x0001dd18 OpenThreadToken
+    0x05e6   0x01fd   0x0003e348 OpenThreadWaitChainSession
+    0x05e7   0x01fe   0x000684c0 OpenTraceA
+    0x05e8   0x01ff   0x00011000 OpenTraceW
+    0x05e9   0x0200   0x00072090 PerfAddCounters
+    0x05ea   0x0201   0x00062600 PerfCloseQueryHandle
+    0x05eb   0x0202   0x00096fb4 PerfCreateInstance
+    0x05ec   0x0203   0x00096fcd PerfDecrementULongCounterValue
+    0x05ed   0x0204   0x00096ff2 PerfDecrementULongLongCounterValue
+    0x05ee   0x0205   0x00072080 PerfDeleteCounters
+    0x05ef   0x0206   0x0009701b PerfDeleteInstance
+    0x05f0   0x0207   0x000383f0 PerfEnumerateCounterSet
+    0x05f1   0x0208   0x0006e810 PerfEnumerateCounterSetInstances
+    0x05f2   0x0209   0x00097034 PerfIncrementULongCounterValue
+    0x05f3   0x020a   0x00097059 PerfIncrementULongLongCounterValue
+    0x05f4   0x020b   0x000626b0 PerfOpenQueryHandle
+    0x05f5   0x020c   0x000720a0 PerfQueryCounterData
+    0x05f6   0x020d   0x0006e700 PerfQueryCounterInfo
+    0x05f7   0x020e   0x00038c20 PerfQueryCounterSetRegistrationInfo
+    0x05f8   0x020f   0x00097082 PerfQueryInstance
+    0x05f9   0x0210   0x0009709a PerfSetCounterRefValue
+    0x05fa   0x0211   0x000970b7 PerfSetCounterSetInfo
+    0x05fb   0x0212   0x000970d3 PerfSetULongCounterValue
+    0x05fc   0x0213   0x000970f2 PerfSetULongLongCounterValue
+    0x05fd   0x0214   0x00097115 PerfStartProvider
+    0x05fe   0x0215   0x0009712d PerfStartProviderEx
+    0x05ff   0x0216   0x00097147 PerfStopProvider
+    0x0600   0x0217   0x00009834 PrivilegeCheck
+    0x0601   0x0218   0x000539a0 PrivilegedServiceAuditAlarmA
+    0x0602   0x0219   0x0003a83c PrivilegedServiceAuditAlarmW
+    0x0603   0x021a   0x000490d0 ProcessIdleTasks
+    0x0604   0x021b   0x00053070 ProcessIdleTasksW
+    0x0605   0x021c   0x00012810 ProcessTrace
+    0x0606   0x021d   0x0006bba0 QueryAllTracesA
+    0x0607   0x021e   0x0006bbb0 QueryAllTracesW
+    0x0608   0x021f   0x00060940 QueryRecoveryAgentsOnEncryptedFile
+    0x0609   0x0220   0x0003a830 QuerySecurityAccessMask
+    0x060a   0x0221   0x0003a810 QueryServiceConfig2A
+    0x060b   0x0222   0x0003a7f0 QueryServiceConfig2W
+    0x060c   0x0223   0x0003a7dc QueryServiceConfigA
+    0x060d   0x0224   0x0000e04c QueryServiceConfigW
+    0x060e   0x0225   0x0004cdd0 QueryServiceLockStatusA
+    0x060f   0x0226   0x0004ccc0 QueryServiceLockStatusW
+    0x0610   0x0227   0x0003a7bc QueryServiceObjectSecurity
+    0x0611   0x0228   0x0001555c QueryServiceStatus
+    0x0612   0x0229   0x00008814 QueryServiceStatusEx
+    0x0613   0x022a   0x000684b0 QueryTraceA
+    0x0614   0x022b   0x0000b060 QueryTraceW
+    0x0615   0x022c   0x000609b0 QueryUsersOnEncryptedFile
+    0x0616   0x022d   0x00049ad0 ReadEncryptedFileRaw
+    0x0617   0x022e   0x000611d0 ReadEventLogA
+    0x0618   0x022f   0x000612d0 ReadEventLogW
+    0x0619   0x0230   0x00024260 RegCloseKey
+    0x061a   0x0231   0x0006bb80 RegConnectRegistryA
+    0x061b   0x0232   0x0006baf0 RegConnectRegistryExA
+    0x061c   0x0233   0x00067ec0 RegConnectRegistryExW
+    0x061d   0x0234   0x00009ec0 RegConnectRegistryW
+    0x061e   0x0235   0x00062580 RegCopyTreeA
+    0x061f   0x0236   0x000573b0 RegCopyTreeW
+    0x0620   0x0237   0x00009580 RegCreateKeyA
+    0x0621   0x0238   0x00013b30 RegCreateKeyExA
+    0x0622   0x0239   0x0001d190 RegCreateKeyExW
+    0x0623   0x023a   0x0004d3e0 RegCreateKeyTransactedA
+    0x0624   0x023b   0x00024900 RegCreateKeyTransactedW
+    0x0625   0x023c   0x00013c60 RegCreateKeyW
+    0x0626   0x023d   0x000260a0 RegDeleteKeyA
+    0x0627   0x023e   0x00049990 RegDeleteKeyExA
+    0x0628   0x023f   0x00008220 RegDeleteKeyExW
+    0x0629   0x0240   0x0004d2c0 RegDeleteKeyTransactedA
+    0x062a   0x0241   0x000247d0 RegDeleteKeyTransactedW
+    0x062b   0x0242   0x00043290 RegDeleteKeyValueA
+    0x062c   0x0243   0x00043230 RegDeleteKeyValueW
+    0x062d   0x0244   0x00013900 RegDeleteKeyW
+    0x062e   0x0245   0x000498b0 RegDeleteTreeA
+    0x062f   0x0246   0x000498c0 RegDeleteTreeW
+    0x0630   0x0247   0x0000fd20 RegDeleteValueA
+    0x0631   0x0248   0x0000a650 RegDeleteValueW
+    0x0632   0x0249   0x0000da40 RegDisablePredefinedCache
+    0x0633   0x024a   0x00049980 RegDisablePredefinedCacheEx
+    0x0634   0x024b   0x00015840 RegDisableReflectionKey
+    0x0635   0x024c   0x00015840 RegEnableReflectionKey
+    0x0636   0x024d   0x00008880 RegEnumKeyA
+    0x0637   0x024e   0x00013b90 RegEnumKeyExA
+    0x0638   0x024f   0x0001e530 RegEnumKeyExW
+    0x0639   0x0250   0x0001de90 RegEnumKeyW
+    0x063a   0x0251   0x0000f700 RegEnumValueA
+    0x063b   0x0252   0x00024020 RegEnumValueW
+    0x063c   0x0253   0x000082a0 RegFlushKey
+    0x063d   0x0254   0x000061f0 RegGetKeySecurity
+    0x063e   0x0255   0x00009e70 RegGetValueA
+    0x063f   0x0256   0x00013350 RegGetValueW
+    0x0640   0x0257   0x000624e0 RegLoadAppKeyA
+    0x0641   0x0258   0x00057120 RegLoadAppKeyW
+    0x0642   0x0259   0x00049900 RegLoadKeyA
+    0x0643   0x025a   0x000498f0 RegLoadKeyW
+    0x0644   0x025b   0x00049930 RegLoadMUIStringA
+    0x0645   0x025c   0x00013550 RegLoadMUIStringW
+    0x0646   0x025d   0x0000fcf0 RegNotifyChangeKeyValue
+    0x0647   0x025e   0x00013d70 RegOpenCurrentUser
+    0x0648   0x025f   0x0000f6c0 RegOpenKeyA
+    0x0649   0x0260   0x0001d260 RegOpenKeyExA
+    0x064a   0x0261   0x00024230 RegOpenKeyExW
+    0x064b   0x0262   0x0004d340 RegOpenKeyTransactedA
+    0x064c   0x0263   0x00024860 RegOpenKeyTransactedW
+    0x064d   0x0264   0x00014f60 RegOpenKeyW
+    0x064e   0x0265   0x00049970 RegOpenUserClassesRoot
+    0x064f   0x0266   0x0004d4b0 RegOverridePredefKey
+    0x0650   0x0267   0x00025ce0 RegQueryInfoKeyA
+    0x0651   0x0268   0x0001e6f0 RegQueryInfoKeyW
+    0x0652   0x0269   0x0006b350 RegQueryMultipleValuesA
+    0x0653   0x026a   0x0006ae10 RegQueryMultipleValuesW
+    0x0654   0x026b   0x00049590 RegQueryReflectionKey
+    0x0655   0x026c   0x00005a70 RegQueryValueA
+    0x0656   0x026d   0x00024080 RegQueryValueExA
+    0x0657   0x026e   0x0001e4d0 RegQueryValueExW
+    0x0658   0x026f   0x0001dd30 RegQueryValueW
+    0x0659   0x0270   0x000432f0 RegRenameKey
+    0x065a   0x0271   0x00056ef0 RegReplaceKeyA
+    0x065b   0x0272   0x00056d60 RegReplaceKeyW
+    0x065c   0x0273   0x00049910 RegRestoreKeyA
+    0x065d   0x0274   0x00024fc0 RegRestoreKeyW
+    0x065e   0x0275   0x00067cf0 RegSaveKeyA
+    0x065f   0x0276   0x00049920 RegSaveKeyExA
+    0x0660   0x0277   0x00024cd0 RegSaveKeyExW
+    0x0661   0x0278   0x00024cf0 RegSaveKeyW
+    0x0662   0x0279   0x00009820 RegSetKeySecurity
+    0x0663   0x027a   0x00043170 RegSetKeyValueA
+    0x0664   0x027b   0x00024610 RegSetKeyValueW
+    0x0665   0x027c   0x0004d070 RegSetValueA
+    0x0666   0x027d   0x00013be0 RegSetValueExA
+    0x0667   0x027e   0x00013c30 RegSetValueExW
+    0x0668   0x027f   0x00025d70 RegSetValueW
+    0x0669   0x0280   0x000498e0 RegUnLoadKeyA
+    0x066a   0x0281   0x000498d0 RegUnLoadKeyW
+    0x066b   0x0282   0x000268e0 RegisterEventSourceA
+    0x066c   0x0283   0x000153e0 RegisterEventSourceW
+    0x066d   0x0284   0x000012c0 RegisterIdleTask
+    0x066e   0x0285   0x0003a7b0 RegisterServiceCtrlHandlerA
+    0x066f   0x0286   0x0003a7a4 RegisterServiceCtrlHandlerExA
+    0x0670   0x0287   0x00008200 RegisterServiceCtrlHandlerExW
+    0x0671   0x0288   0x00002018 RegisterServiceCtrlHandlerW
+    0x0672   0x0289   0x0009715e RegisterTraceGuidsA
+    0x0673   0x028a   0x0009717b RegisterTraceGuidsW
+    0x0674   0x028b   0x00039e78 RegisterWaitChainCOMCallback
+    0x0675   0x028c   0x0004f470 RemoveTraceCallback
+    0x0676   0x028d   0x000608d0 RemoveUsersFromEncryptedFile
+    0x0677   0x028e   0x00060fe0 ReportEventA
+    0x0678   0x028f   0x0000f3f0 ReportEventW
+    0x0679   0x0290   0x0000fc00 RevertToSelf
+    0x067a   0x0291   0x00023110 SaferCloseLevel
+    0x067b   0x0292   0x00023200 SaferComputeTokenFromLevel
+    0x067c   0x0293   0x00069850 SaferCreateLevel
+    0x067d   0x0294   0x0000a000 SaferGetLevelInformation
+    0x067e   0x0295   0x0000a870 SaferGetPolicyInformation
+    0x067f   0x0296   0x00022280 SaferIdentifyLevel
+    0x0680   0x0297   0x0006c470 SaferRecordEventLogEntry
+    0x0681   0x0298   0x00069730 SaferSetLevelInformation
+    0x0682   0x0299   0x0006c680 SaferSetPolicyInformation
+    0x0683   0x029a   0x00065110 SaferiChangeRegistryScope
+    0x0684   0x029b   0x0000d8f0 SaferiCompareTokenLevels
+    0x0685   0x029c   0x0003ea8c SaferiIsDllAllowed
+    0x0686   0x029d   0x0000a6a0 SaferiIsExecutableFileType
+    0x0687   0x029e   0x0005e030 SaferiPopulateDefaultsInRegistry
+    0x0688   0x029f   0x0006c470 SaferiRecordEventLogEntry
+    0x0689   0x02a0   0x00009420 SaferiSearchMatchingHashRules
+    0x068a   0x02a1   0x0003a798 SetAclInformation
+    0x068b   0x02a2   0x000499d0 SetEncryptedFileMetadata
+    0x068c   0x02a3   0x000648b0 SetEntriesInAccessListA
+    0x068d   0x02a4   0x0005bfa0 SetEntriesInAccessListW
+    0x068e   0x02a5   0x00050860 SetEntriesInAclA
+    0x068f   0x02a6   0x00015380 SetEntriesInAclW
+    0x0690   0x02a7   0x00064870 SetEntriesInAuditListA
+    0x0691   0x02a8   0x0005bf60 SetEntriesInAuditListW
+    0x0692   0x02a9   0x00053910 SetFileSecurityA
+    0x0693   0x02aa   0x0000b164 SetFileSecurityW
+    0x0694   0x02ab   0x00069730 SetInformationCodeAuthzLevelW
+    0x0695   0x02ac   0x0006c680 SetInformationCodeAuthzPolicyW
+    0x0696   0x02ad   0x0001360c SetKernelObjectSecurity
+    0x0697   0x02ae   0x0005dcd0 SetNamedSecurityInfoA
+    0x0698   0x02af   0x0005cf60 SetNamedSecurityInfoExA
+    0x0699   0x02b0   0x0005d360 SetNamedSecurityInfoExW
+    0x069a   0x02b1   0x0000aa60 SetNamedSecurityInfoW
+    0x069b   0x02b2   0x0003a778 SetPrivateObjectSecurity
+    0x069c   0x02b3   0x0003a750 SetPrivateObjectSecurityEx
+    0x069d   0x02b4   0x0003a744 SetSecurityAccessMask
+    0x069e   0x02b5   0x00024cc4 SetSecurityDescriptorControl
+    0x069f   0x02b6   0x0001d210 SetSecurityDescriptorDacl
+    0x06a0   0x02b7   0x0001149c SetSecurityDescriptorGroup
+    0x06a1   0x02b8   0x00011488 SetSecurityDescriptorOwner
+    0x06a2   0x02b9   0x0003a738 SetSecurityDescriptorRMControl
+    0x06a3   0x02ba   0x00013660 SetSecurityDescriptorSacl
+    0x06a4   0x02bb   0x0000a5b0 SetSecurityInfo
+    0x06a5   0x02bc   0x0005c5b0 SetSecurityInfoExA
+    0x06a6   0x02bd   0x0005c970 SetSecurityInfoExW
+    0x06a7   0x02be   0x00056ab0 SetServiceBits
+    0x06a8   0x02bf   0x0003a72c SetServiceObjectSecurity
+    0x06a9   0x02c0   0x00008234 SetServiceStatus
+    0x06aa   0x02c1   0x0000f18c SetThreadToken
+    0x06ab   0x02c2   0x0000cab0 SetTokenInformation
+    0x06ac   0x02c3   0x0004f570 SetTraceCallback
+    0x06ad   0x02c4   0x000607c0 SetUserFileEncryptionKey
+    0x06ae   0x02c5   0x00060750 SetUserFileEncryptionKeyEx
+    0x06af   0x02c6   0x0003a720 StartServiceA
+    0x06b0   0x02c7   0x0003a714 StartServiceCtrlDispatcherA
+    0x06b1   0x02c8   0x0000621c StartServiceCtrlDispatcherW
+    0x06b2   0x02c9   0x00008800 StartServiceW
+    0x06b3   0x02ca   0x00063710 StartTraceA
+    0x06b4   0x02cb   0x00010180 StartTraceW
+    0x06b5   0x02cc   0x00068490 StopTraceA
+    0x06b6   0x02cd   0x000132c0 StopTraceW
+    0x06b7   0x02ce   0x0003d06c SystemFunction001
+    0x06b8   0x02cf   0x00024544 SystemFunction002
+    0x06b9   0x02d0   0x0000ca4c SystemFunction003
+    0x06ba   0x02d1   0x0003d000 SystemFunction004
+    0x06bb   0x02d2   0x0003cf94 SystemFunction005
+    0x06bc   0x02d3   0x0000c960 SystemFunction006
+    0x06bd   0x02d4   0x0000e0b0 SystemFunction007
+    0x06be   0x02d5   0x00060430 SystemFunction008
+    0x06bf   0x02d6   0x000663b0 SystemFunction009
+    0x06c0   0x02d7   0x00066350 SystemFunction010
+    0x06c1   0x02d8   0x0006a750 SystemFunction011
+    0x06c2   0x02d9   0x000603e0 SystemFunction012
+    0x06c3   0x02da   0x00060390 SystemFunction013
+    0x06c4   0x02db   0x00066340 SystemFunction014
+    0x06c5   0x02dc   0x00066330 SystemFunction015
+    0x06c6   0x02dd   0x00060340 SystemFunction016
+    0x06c7   0x02de   0x000602f0 SystemFunction017
+    0x06c8   0x02df   0x00066320 SystemFunction018
+    0x06c9   0x02e0   0x00066310 SystemFunction019
+    0x06ca   0x02e1   0x00066340 SystemFunction020
+    0x06cb   0x02e2   0x00066330 SystemFunction021
+    0x06cc   0x02e3   0x00066340 SystemFunction022
+    0x06cd   0x02e4   0x00066330 SystemFunction023
+    0x06ce   0x02e5   0x00060270 SystemFunction024
+    0x06cf   0x02e6   0x000244d0 SystemFunction025
+    0x06d0   0x02e7   0x00066300 SystemFunction026
+    0x06d1   0x02e8   0x000244c0 SystemFunction027
+    0x06d2   0x02e9   0x0003cf38 SystemFunction028
+    0x06d3   0x02ea   0x0003cedc SystemFunction029
+    0x06d4   0x02eb   0x00024460 SystemFunction030
+    0x06d5   0x02ec   0x00024460 SystemFunction031
+    0x06d6   0x02ed   0x00052ff0 SystemFunction032
+    0x06d7   0x02ee   0x00052ff0 SystemFunction033
+    0x06d8   0x02ef   0x0003ce70 SystemFunction034
+    0x06d9   0x02f0   0x00097198 SystemFunction035
+    0x06da   0x02f1   0x00000444 SystemFunction036
+    0x06db   0x02f2   0x00009d10 SystemFunction040
+    0x06dc   0x02f3   0x00009ca0 SystemFunction041
+    0x06dd   0x02f4   0x000971b5 TraceEvent
+    0x06de   0x02f5   0x000971cc TraceEventInstance
+    0x06df   0x02f6   0x000971e8 TraceMessage
+    0x06e0   0x02f7   0x000971fe TraceMessageVa
+    0x06e1   0x02f8   0x0003c9f0 TraceSetInformation
+    0x06e2   0x02f9   0x00044ba0 TreeResetNamedSecurityInfoA
+    0x06e3   0x02fa   0x00044bb0 TreeResetNamedSecurityInfoW
+    0x06e4   0x02fb   0x00044ba0 TreeSetNamedSecurityInfoA
+    0x06e5   0x02fc   0x00044ab0 TreeSetNamedSecurityInfoW
+    0x06e6   0x02fd   0x0005bc00 TrusteeAccessToObjectA
+    0x06e7   0x02fe   0x0005be50 TrusteeAccessToObjectW
+    0x06e8   0x02ff   0x000523a0 UninstallApplication
+    0x06e9   0x0300   0x0004cc50 UnlockServiceDatabase
+    0x06ea   0x0301   0x00049210 UnregisterIdleTask
+    0x06eb   0x0302   0x00097216 UnregisterTraceGuids
+    0x06ec   0x0303   0x00068470 UpdateTraceA
+    0x06ed   0x0304   0x00068450 UpdateTraceW
+    0x06ee   0x0305   0x00060570 UsePinForEncryptedFilesA
+    0x06ef   0x0306   0x00066680 UsePinForEncryptedFilesW
+    0x06f0   0x0307   0x0001a1e0 WmiCloseBlock
+    0x06f1   0x0308   0x00059c10 WmiDevInstToInstanceNameA
+    0x06f2   0x0309   0x00059b30 WmiDevInstToInstanceNameW
+    0x06f3   0x030a   0x00059ce0 WmiEnumerateGuids
+    0x06f4   0x030b   0x0005a6f0 WmiExecuteMethodA
+    0x06f5   0x030c   0x0005a330 WmiExecuteMethodW
+    0x06f6   0x030d   0x0005a0f0 WmiFileHandleToInstanceNameA
+    0x06f7   0x030e   0x00059ec0 WmiFileHandleToInstanceNameW
+    0x06f8   0x030f   0x0000c200 WmiFreeBuffer
+    0x06f9   0x0310   0x00068e20 WmiMofEnumerateResourcesA
+    0x06fa   0x0311   0x0000bb90 WmiMofEnumerateResourcesW
+    0x06fb   0x0312   0x00073e60 WmiNotificationRegistrationA
+    0x06fc   0x0313   0x0000cbc0 WmiNotificationRegistrationW
+    0x06fd   0x0314   0x00019f00 WmiOpenBlock
+    0x06fe   0x0315   0x00074430 WmiQueryAllDataA
+    0x06ff   0x0316   0x0005b1f0 WmiQueryAllDataMultipleA
+    0x0700   0x0317   0x0005afd0 WmiQueryAllDataMultipleW
+    0x0701   0x0318   0x00019fc0 WmiQueryAllDataW
+    0x0702   0x0319   0x0000b850 WmiQueryGuidInformation
+    0x0703   0x031a   0x0006eef0 WmiQuerySingleInstanceA
+    0x0704   0x031b   0x000643d0 WmiQuerySingleInstanceMultipleA
+    0x0705   0x031c   0x0005ad70 WmiQuerySingleInstanceMultipleW
+    0x0706   0x031d   0x0006ec20 WmiQuerySingleInstanceW
+    0x0707   0x031e   0x0006efd0 WmiReceiveNotificationsA
+    0x0708   0x031f   0x0006f050 WmiReceiveNotificationsW
+    0x0709   0x0320   0x0005aca0 WmiSetSingleInstanceA
+    0x070a   0x0321   0x0005aab0 WmiSetSingleInstanceW
+    0x070b   0x0322   0x0005a9e0 WmiSetSingleItemA
+    0x070c   0x0323   0x0005a7e0 WmiSetSingleItemW
+    0x070d   0x0324   0x00049ab0 WriteEncryptedFileRaw
