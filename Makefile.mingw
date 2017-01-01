@@ -1,0 +1,10 @@
+CFLAGS = -Wall -Werror -ggdb
+
+all:pedump.exe
+
+pedump.exe:pedump.c pygetopt.c
+	gcc $(CFLAGS) $^ -o $@
+
+clean:
+	msys rm -rf *.exe
+
