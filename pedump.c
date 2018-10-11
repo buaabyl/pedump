@@ -286,7 +286,7 @@ int parse_pe(const uint8_t* buf, uint64_t length,
     if (pe.FileHeader.Machine == IMAGE_FILE_MACHINE_I386) {
         memcpy(&pe.OptionalHeader.Header32, buf + offset, sizeof(IMAGE_OPTIONAL_HEADER32));
     } else if (pe.FileHeader.Machine == IMAGE_FILE_MACHINE_AMD64) {
-        memcpy(&pe.OptionalHeader.Header64, buf + offset, sizeof(IMAGE_OPTIONAL_HEADER32));
+        memcpy(&pe.OptionalHeader.Header64, buf + offset, sizeof(IMAGE_OPTIONAL_HEADER64));
     } else {
         printf("Error: not support machine 0x%04x!\n", pe.FileHeader.Machine);
         return -1;
